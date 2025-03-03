@@ -7,11 +7,11 @@ import Footer from "@/components/Footer";
 import ThemeToggle from "@/components/ThemeToggle";
 
 export default function RootLayout({ children }) {
-
-
   return (
-    <><ThemeToggle/>
-      <h1 className="
+    <>
+      <ThemeToggle />
+      <h1
+        className="
         text-4xl
         font-bold
         text-center
@@ -20,9 +20,11 @@ export default function RootLayout({ children }) {
         from-blue-500
         to-green-400
         bg-clip-text
-      ">MooSMP Logo Gallery</h1>
-
-
+      "
+        style="font-family: 'Georgia', math, serif"
+      >
+        MooSMP Logo Gallery
+      </h1>
 
       <main className="flex-grow">
         <Gallery />
