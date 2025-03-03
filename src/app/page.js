@@ -4,7 +4,6 @@ import "./globals.css";
 import "./themes.css";
 import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
-import { useEffect, useState } from "react";
 import ThemeToggle from "@/components/ThemeToggle";
 
 export default function RootLayout({ children }) {
